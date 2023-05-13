@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>09_superglobals</title>
 </head>
+
 <body>
 	<li>Host: <?php echo $_SERVER['HTTP_HOST'] ?></li>
 	<li>Document Root: <?php echo $_SERVER['DOCUMENT_ROOT'] ?></li>
@@ -17,4 +19,5 @@
 	<br />
 	<a href="./index.php">Go back</a>
 </body>
+
 </html>

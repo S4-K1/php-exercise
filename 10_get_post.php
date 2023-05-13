@@ -1,15 +1,17 @@
 <?php
-	if(isset($_POST['submit'])) {
-		echo($_POST['name'] . ' ' . $_POST['age']);
-	}
+if (isset($_POST['submit'])) {
+	echo ($_POST['name'] . ' ' . $_POST['age']);
+}
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>10_get_post</title>
 </head>
-<body>	
+
+<body>
 	<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
 		<div>
 			<label for="name"> Name: </label>
@@ -24,4 +26,5 @@
 	<br />
 	<a href="./index.php">Go back</a>
 </body>
+
 </html>
